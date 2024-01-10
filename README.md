@@ -23,11 +23,19 @@ let z=add(3);
 this is what you will see after your typing:
 
 <img width="610" alt="截屏2024-01-10 17 17 10" src="https://github.com/wycl16514/dragon-compiler/assets/7506958/0407f557-8d5f-4105-9ce0-ca9314431296">
-you can see there are line numbers along the code in the left, please hit the button "parsing" and then hit "step", and you will see the following:
+
+you can see there are line numbers along the code in the left, and the keyword like "fn", "let" are hightlined by green color, 
+please hit the button "parsing" and then hit "step", and you will see the following:
+
 <img width="333" alt="截屏2024-01-10 17 20 37" src="https://github.com/wycl16514/dragon-compiler/assets/7506958/ab161659-510b-4b74-a71b-d6192324408d">
-you can see one line of code is hightlined with yellow background which means the current line of code is executing by the intepreter. continue clicking the "step" button, it will setp into the function, and you move your cursor over the variable with name "x" and you can see following:
+
+you can see one line of code is hightlined with yellow background which means the current line of code is executing by the intepreter. continue clicking the "step" button, 
+it will setp into the function, and you move your cursor over the variable with name "x" and you can see following:
+
 <img width="445" alt="截屏2024-01-10 17 23 40" src="https://github.com/wycl16514/dragon-compiler/assets/7506958/1713b40a-c39b-49df-8949-647dc9bd9f40">
-there is a popup which contains the value for variable x, please continue to hit step and the you will step into the function again and move your mouse over the variable x again, this time you will see its value turns into 2 in the popup.
+
+there is a popup which contains the value for variable x, please continue to hit step and the you will step into the function again and move your mouse over the variable x again,
+this time you will see its value turns into 2 in the popup.
 
 please try and play around the app, click "step" more times and you will find more and very likely you will find it ..... crashed.
 
